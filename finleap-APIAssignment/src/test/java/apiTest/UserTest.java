@@ -68,6 +68,22 @@ public class UserTest extends BaseTest {
 			assertEquals(statusCode, 200);
 
 		}
+		
+		@Test
+		public void userforPageAsText() {
+			ExtentReport.extentlog = ExtentReport.extentreport.startTest("get users",
+					" status code should be 404");
+			
+			Helper.loginfo("testcase name", "get page value as test");
+			
+			Response resp = getUserDetails("https://reqres.in/api/sers?page=test");
+
+			int statusCode = resp.getStatusCode();
+			JsonPath jsonPathEvaluator = resp.jsonPath();
+			int pagenumber= resp.path("page");
+			assertEquals(statusCode, 404);
+
+		}
 	
 	@Test
 	public void userIdAsSpecialChar() {
