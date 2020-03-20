@@ -1,0 +1,9 @@
+2019-10-20 04:12:15 INFO  Logging:59 - [Test case] *********************************************************************
+2019-10-20 04:12:15 INFO  Logging:59 - [testcase name] checkMovieAuth
+2019-10-20 04:12:15 INFO  Logging:59 - [Hitting API URL :- ] https://the-one-api.herokuapp.com/v1/movie
+2019-10-20 04:12:18 INFO  Logging:59 - [Response :- ] {"statusCode":401,"error":"Unauthorized","message":"Missing authentication"}
+2019-10-20 04:12:18 INFO  Logging:59 - [Response time :- ] 1716
+2019-10-20 04:12:18 INFO  Logging:59 - [Satus code :- ] 401
+2019-10-20 04:12:18 INFO  Logging:59 - [Test case] *********************************************************************
+2019-10-20 04:12:18 INFO  Logging:59 - [testcase name] verify trilogy
+2019-10-20 04:12:18 INFO  Logging:59 - [Error] C:\Users\rishav\workspace\Locus-Assignment\moviesTestdata.json (The system cannot find the file specified)

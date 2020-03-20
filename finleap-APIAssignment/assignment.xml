@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "API">
+  <parameter name="ReportName" value="API"/>
+   <test name = "Assignment">
+      
+      <classes>
+			<class name="apiTest.BookTest"/>
+			<class name="apiTest.MoviesTest"/>
+			<class name="apiTest.QuotesTest"/>
+	  </classes>
+      
+   </test>
+</suite>

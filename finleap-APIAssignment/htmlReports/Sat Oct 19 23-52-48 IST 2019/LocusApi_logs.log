@@ -1,0 +1,5 @@
+2019-10-19 23:52:49 INFO  Logging:59 - [Test case] *********************************************************************
+2019-10-19 23:52:49 INFO  Logging:59 - [testcase name] checkMovieAuth
+2019-10-19 23:52:49 INFO  Logging:59 - [Hitting API URL :- ] https://the-one-api.herokuapp.com/v1/movie
+2019-10-19 23:52:52 INFO  Logging:59 - [Response :- ] {"statusCode":401,"error":"Unauthorized","message":"Missing authentication"}
+2019-10-19 23:52:52 INFO  Logging:59 - [Response time :- ] 2389

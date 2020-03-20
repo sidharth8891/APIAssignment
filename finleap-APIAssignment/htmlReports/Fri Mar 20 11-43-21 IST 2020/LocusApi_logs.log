@@ -1,0 +1,5 @@
+2020-03-20 11:43:21 INFO  Logging:59 - [Test case] *********************************************************************
+2020-03-20 11:43:21 INFO  Logging:59 - [testcase name] get users
+2020-03-20 11:43:21 INFO  Logging:59 - [Hitting API URL :- ] https://reqres.in/api/users/@#
+2020-03-20 11:43:27 INFO  Logging:59 - [Response :- ] {}
+2020-03-20 11:43:27 INFO  Logging:59 - [Response time :- ] 3752

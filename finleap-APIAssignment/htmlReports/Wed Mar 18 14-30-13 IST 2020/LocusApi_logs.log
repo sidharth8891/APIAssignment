@@ -1,0 +1,5 @@
+2020-03-18 14:30:14 INFO  Logging:59 - [Test case] *********************************************************************
+2020-03-18 14:30:14 INFO  Logging:59 - [testcase name] count Books
+2020-03-18 14:30:14 INFO  Logging:59 - [Hitting API URL :- ] http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/main-types?manufacturer=095&wa_key=coding-puzzle-client-449cc9d&locale=english&page=0&pageSize=0
+2020-03-18 14:30:19 INFO  Logging:59 - [Response :- ] {"page":0,"pageSize":2147483647,"totalPageCount":1,"wkda":{"1000-1":"1000-1","N":"N"}}
+2020-03-18 14:30:19 INFO  Logging:59 - [Response time :- ] 3425

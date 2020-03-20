@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5249" started-at="2020-03-20T06:13:21Z" finished-at="2020-03-20T06:13:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5249" started-at="2020-03-20T06:13:21Z" finished-at="2020-03-20T06:13:27Z">
+      <class name="apiTest.UserTest">
+        <test-method status="PASS" signature="config(java.lang.String, java.lang.String)[pri:0, instance:apiTest.UserTest@42e26948]" name="config" is-config="true" duration-ms="281" started-at="2020-03-20T11:43:21Z" finished-at="2020-03-20T11:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Optional name Automation ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[API Report]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="LogBeforeMethod()[pri:0, instance:apiTest.UserTest@42e26948]" name="LogBeforeMethod" is-config="true" duration-ms="4" started-at="2020-03-20T11:43:21Z" finished-at="2020-03-20T11:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogBeforeMethod -->
+        <test-method status="PASS" signature="userIdAsSpecialChar()[pri:0, instance:apiTest.UserTest@42e26948]" name="userIdAsSpecialChar" duration-ms="5217" started-at="2020-03-20T11:43:21Z" finished-at="2020-03-20T11:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIdAsSpecialChar -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:apiTest.UserTest@42e26948]" name="getResult" is-config="true" duration-ms="5" started-at="2020-03-20T11:43:27Z" finished-at="2020-03-20T11:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userIdAsSpecialChar status=SUCCESS method=UserTest.userIdAsSpecialChar()[pri:0, instance:apiTest.UserTest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:apiTest.UserTest@42e26948]" name="endReport" is-config="true" duration-ms="598" started-at="2020-03-20T11:43:27Z" finished-at="2020-03-20T11:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- apiTest.UserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

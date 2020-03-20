@@ -1,0 +1,5 @@
+2020-03-18 14:30:36 INFO  Logging:59 - [Test case] *********************************************************************
+2020-03-18 14:30:36 INFO  Logging:59 - [testcase name] count Books
+2020-03-18 14:30:36 INFO  Logging:59 - [Hitting API URL :- ] http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/man-types?manufacturer=095&wa_key=coding-puzzle-client-449cc9d&locale=english&page=0&pageSize=0
+2020-03-18 14:30:41 INFO  Logging:59 - [Response :- ] {"timestamp":"2020-03-18T10:00:41.603+0100","status":404,"error":"Not Found","message":"Not Found","path":"/v1/car-types/man-types"}
+2020-03-18 14:30:41 INFO  Logging:59 - [Response time :- ] 3455

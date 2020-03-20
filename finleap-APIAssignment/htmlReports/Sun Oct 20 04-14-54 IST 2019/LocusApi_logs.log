@@ -1,0 +1,8 @@
+2019-10-20 04:14:54 INFO  Logging:59 - [Test case] *********************************************************************
+2019-10-20 04:14:54 INFO  Logging:59 - [testcase name] checkMovieAuth
+2019-10-20 04:14:54 INFO  Logging:59 - [Hitting API URL :- ] https://the-one-api.herokuapp.com/v1/movie
+2019-10-20 04:14:57 INFO  Logging:59 - [Response :- ] {"statusCode":401,"error":"Unauthorized","message":"Missing authentication"}
+2019-10-20 04:14:57 INFO  Logging:59 - [Response time :- ] 1942
+2019-10-20 04:14:57 INFO  Logging:59 - [Satus code :- ] 401
+2019-10-20 04:14:57 INFO  Logging:59 - [Test case] *********************************************************************
+2019-10-20 04:15:10 INFO  Logging:59 - [testcase name] verify trilogy

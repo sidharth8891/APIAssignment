@@ -1,0 +1,6 @@
+2019-10-31 14:18:53 INFO  Logging:59 - [Test case] *********************************************************************
+2019-10-31 14:18:53 INFO  Logging:59 - [testcase name] count Books
+2019-10-31 14:18:53 INFO  Logging:59 - [Hitting API URL :- ] https://the-one-api.herokuapp.com/v1/book
+2019-10-31 14:18:56 INFO  Logging:59 - [Response :- ] {"docs":[{"_id":"5cf5805fb53e011a64671582","name":"The Fellowship Of The Ring"},{"_id":"5cf58077b53e011a64671583","name":"The Two Towers"},{"_id":"5cf58080b53e011a64671584","name":"The Return Of The King"}],"pages":{"current":1,"prev":0,"hasPrev":false,"next":2,"hasNext":false,"total":null},"items":{"begin":null,"end":null,"total":3}}
+2019-10-31 14:18:56 INFO  Logging:59 - [Response time :- ] 2004
+2019-10-31 14:18:56 INFO  Logging:59 - [Error :- ] null
