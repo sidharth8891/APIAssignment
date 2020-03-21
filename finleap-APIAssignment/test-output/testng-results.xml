@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5249" started-at="2020-03-20T06:13:21Z" finished-at="2020-03-20T06:13:27Z">
+  <suite name="Default suite" duration-ms="7181" started-at="2020-03-21T06:28:45Z" finished-at="2020-03-21T06:28:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5249" started-at="2020-03-20T06:13:21Z" finished-at="2020-03-20T06:13:27Z">
+    <test name="Default test" duration-ms="7181" started-at="2020-03-21T06:28:45Z" finished-at="2020-03-21T06:28:53Z">
       <class name="apiTest.UserTest">
-        <test-method status="PASS" signature="config(java.lang.String, java.lang.String)[pri:0, instance:apiTest.UserTest@42e26948]" name="config" is-config="true" duration-ms="281" started-at="2020-03-20T11:43:21Z" finished-at="2020-03-20T11:43:21Z">
+        <test-method status="PASS" signature="config(java.lang.String, java.lang.String)[pri:0, instance:apiTest.UserTest@42e26948]" name="config" is-config="true" duration-ms="432" started-at="2020-03-21T11:58:45Z" finished-at="2020-03-21T11:58:45Z">
           <params>
             <param index="0">
               <value>
@@ -23,26 +23,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method status="PASS" signature="LogBeforeMethod()[pri:0, instance:apiTest.UserTest@42e26948]" name="LogBeforeMethod" is-config="true" duration-ms="4" started-at="2020-03-20T11:43:21Z" finished-at="2020-03-20T11:43:21Z">
+        <test-method status="PASS" signature="LogBeforeMethod()[pri:0, instance:apiTest.UserTest@42e26948]" name="LogBeforeMethod" is-config="true" duration-ms="7" started-at="2020-03-21T11:58:45Z" finished-at="2020-03-21T11:58:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogBeforeMethod -->
-        <test-method status="PASS" signature="userIdAsSpecialChar()[pri:0, instance:apiTest.UserTest@42e26948]" name="userIdAsSpecialChar" duration-ms="5217" started-at="2020-03-20T11:43:21Z" finished-at="2020-03-20T11:43:27Z">
+        <test-method status="PASS" signature="userIdAsPrefixZero()[pri:0, instance:apiTest.UserTest@42e26948]" name="userIdAsPrefixZero" duration-ms="7127" started-at="2020-03-21T11:58:45Z" finished-at="2020-03-21T11:58:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userIdAsSpecialChar -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:apiTest.UserTest@42e26948]" name="getResult" is-config="true" duration-ms="5" started-at="2020-03-20T11:43:27Z" finished-at="2020-03-20T11:43:27Z">
+        </test-method> <!-- userIdAsPrefixZero -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:apiTest.UserTest@42e26948]" name="getResult" is-config="true" duration-ms="9" started-at="2020-03-21T11:58:53Z" finished-at="2020-03-21T11:58:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userIdAsSpecialChar status=SUCCESS method=UserTest.userIdAsSpecialChar()[pri:0, instance:apiTest.UserTest@42e26948] output={null}]]]>
+                <![CDATA[[TestResult name=userIdAsPrefixZero status=SUCCESS method=UserTest.userIdAsPrefixZero()[pri:0, instance:apiTest.UserTest@42e26948] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:apiTest.UserTest@42e26948]" name="endReport" is-config="true" duration-ms="598" started-at="2020-03-20T11:43:27Z" finished-at="2020-03-20T11:43:27Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:apiTest.UserTest@42e26948]" name="endReport" is-config="true" duration-ms="901" started-at="2020-03-21T11:58:53Z" finished-at="2020-03-21T11:58:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

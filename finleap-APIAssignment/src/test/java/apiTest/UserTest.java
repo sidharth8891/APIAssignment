@@ -22,7 +22,7 @@ public class UserTest extends BaseTest {
 		ExtentReport.extentlog = ExtentReport.extentreport.startTest("get users",
 				" status code should be 200");
 		
-		Helper.loginfo("testcase name", "get users");
+		Helper.loginfo("testcase name", "get users with user id as 2");
 		
 		Response resp = getUserDetails("/api/users/2");
 
@@ -41,7 +41,7 @@ public class UserTest extends BaseTest {
 		ExtentReport.extentlog = ExtentReport.extentreport.startTest("get users",
 				" status code should be 404");
 		
-		Helper.loginfo("testcase name", "get users");
+		Helper.loginfo("testcase name", "get users with user id as zero");
 		
 		Response resp = getUserDetails("/api/users/0");
 
@@ -49,6 +49,23 @@ public class UserTest extends BaseTest {
 		JsonPath jsonPathEvaluator = resp.jsonPath();
 
 		assertEquals(statusCode, 404);
+
+	}
+	
+	@Test
+	public void userIdAsPrefixZero() {
+		ExtentReport.extentlog = ExtentReport.extentreport.startTest("get users",
+				" status code should be 404");
+		
+		Helper.loginfo("testcase name", "get users with prefix as zero");
+		
+		Response resp = getUserDetails("/api/users/03");
+
+		int statusCode = resp.getStatusCode();
+		JsonPath jsonPathEvaluator = resp.jsonPath();
+        int id = resp.path("data.id");
+		assertEquals(statusCode, 200);
+        assertEquals(id, 3);
 
 	}
 		
@@ -90,7 +107,7 @@ public class UserTest extends BaseTest {
 		ExtentReport.extentlog = ExtentReport.extentreport.startTest("get users",
 				" status code should be 404");
 		
-		Helper.loginfo("testcase name", "get users");
+		Helper.loginfo("testcase name", "get users with user id as special char");
 		
 		Response resp = getUserDetails("/api/users/@#");
 
